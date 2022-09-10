@@ -92,6 +92,8 @@ app.get('/rooms', (req, res)=> {
   res.json(rooms)
 })
 
+app.get
+
 
 server.listen(PORT, ()=> {
   console.log('listening to port', PORT)
